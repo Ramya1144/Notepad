@@ -1,0 +1,49 @@
+
+.container{
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+   color: white;
+}
+#titlenote{
+    margin-left: 3rem;
+    width:75rem;
+    height:3rem;
+    border-radius: 7px;
+}
+#Addbutton,.btn1{
+    height:52px;
+    background-color: dodgerblue;
+    width: 11rem;
+    color:white;
+    border-radius: 7px;
+}
+.note-content1{
+    margin-left: 3rem;
+    width:86rem;
+    height:10rem;
+   border-radius: 7px;
+    margin-top: 3px;
+     margin-bottom: 20px; 
+}
+#ChildBox{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px 10px;
+}
+.child1{
+    background-color: #5305ff;
+    padding:15px;
+    border-radius: 5px;
+    position:relative;
+    margin-left: 3rem;
+    
+}
+.btn1{
+    float: right;
+    color:white;
+  
+}
+.noteinfo1,.hedding1{
+    color:white;
+}
